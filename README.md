@@ -19,4 +19,4 @@ view.addSubview(stepper)
 
 This creates one of the following views:
 
-![example1](https://github.com/vicino/VCStepper/blob/master/VCStepper/Stepper1.png)
+![example1](https://github.com/vicino/VCStepper/blob/master/Stepper1.png)
