@@ -45,7 +45,7 @@ public class VCStepper: UIControl {
         }
     }
     
-    private var _value: Double = 1 {
+    private var _value: Double = 0 {
         didSet {
             if truncateValue {
                 label.text = String(Int(value))
@@ -67,7 +67,7 @@ public class VCStepper: UIControl {
         }
     }
     
-    var value: Double {
+    public var value: Double {
         get {
             return _value
         }
