@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'VCStepper_Example', :exclusive => true do
+  pod 'VCStepper', :path => '../'
+end
+
+target 'VCStepper_Tests', :exclusive => true do
+  pod 'VCStepper', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
