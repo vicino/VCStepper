@@ -22,7 +22,6 @@ pod "VCStepper"
 
 ## Author
 
-Mike Perry, mike@vicino.io
 
 ## License
 

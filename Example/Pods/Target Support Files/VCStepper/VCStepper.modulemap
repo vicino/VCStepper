@@ -1,0 +1,6 @@
+framework module VCStepper {
+  umbrella header "VCStepper-umbrella.h"
+
+  export *
+  module * { export * }
+}

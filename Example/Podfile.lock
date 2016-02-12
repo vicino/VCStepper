@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - VCStepper (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - VCStepper (from `../`)
+
+EXTERNAL SOURCES:
+  VCStepper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  VCStepper: b88d33616dc88f06ec628a152abffb7c26e79024
+
+COCOAPODS: 0.39.0
