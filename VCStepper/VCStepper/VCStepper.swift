@@ -84,7 +84,7 @@ public class VCStepper: UIControl {
         }
     }
     
-    var color: UIColor = UIColor.saundrasRed() {
+    var color: UIColor = UIColor.redColor() {
         didSet {
             setNeedsDisplay()
             minusButton.color = color
@@ -225,8 +225,8 @@ public class VCStepper: UIControl {
 }
 
 private class VCStepperButton: UIButton {
-    var color = UIColor.saundrasRed()
-    var disabledColor = UIColor.saundrasRed(0.7)
+    var color = UIColor.redColor()
+    var disabledColor = UIColor(red: 255, green: 0, blue: 0, alpha: 0.7)
     
     private var stepperButtonType: VCStepperButtonType
     
