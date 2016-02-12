@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import VCStepper
 
 class ViewController: UIViewController {
 
